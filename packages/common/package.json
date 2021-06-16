@@ -1,0 +1,14 @@
+{
+  "name": "@myapp/common",
+  "main": "dist",
+  "types": "dist",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc"
+  },
+  "dependencies": {
+    "chalk": "4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "4.3.2"
+  }
+}

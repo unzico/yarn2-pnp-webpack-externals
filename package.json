@@ -1,0 +1,16 @@
+{
+  "name": "yarn2-pnp-webpack-externals",
+  "scripts": {
+    "common": "yarn workspace @myapp/common run",
+    "server": "yarn workspace @myapp/server run",
+    "setup": "yarn && yarn common build && yarn server build && rm -rf .yarn/cache/ && yarn workspaces focus @myapp/server --production"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "4.3.2"
+  }
+}
