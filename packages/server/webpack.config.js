@@ -21,7 +21,7 @@ module.exports = {
       }
 
       // Continue without externalizing the import
-      callback();
+      return callback();
     },
   ],
 };

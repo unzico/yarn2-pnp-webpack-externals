@@ -1,6 +1,7 @@
 {
   "name": "@myapp/server",
   "scripts": {
+    "start": "node dist/main.js",
     "dev": "ts-node ./src/index.ts",
     "build": "rm -rf dist/ && webpack"
   },

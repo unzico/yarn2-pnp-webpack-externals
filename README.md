@@ -5,4 +5,4 @@
 - builds the `common` and the `server` package
 - clears the cache and installs only the production dependencies of the `server` package
 
-2. run `yarn node packages/server/dist/main.js`
+2. run `yarn server start`
